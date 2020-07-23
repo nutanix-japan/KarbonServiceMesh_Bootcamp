@@ -6,27 +6,32 @@
   :name: _servicemesh_kubernetes
   :hidden:
 
- istio/istio
- connect/connect_to_karbon
- application/prepare_deploy_access
- visualisation/application_traffic_visualisation
- control/application_traffic_control
- explore/virtual_services_explore
- cleanup/cleanup
- conclusion/conclusion
+  istio/istio
+  connect/connect
+  application/prepare_deploy_access
+  visualisation/application_traffic_visualisation
+  control/application_traffic_control
+  explore/virtual_services_explore
+  cleanup/cleanup
+  conclusion/conclusion
 
 .. toctree::
   :maxdepth: 2
   :caption: Appendix
   :name: _appendix
   :hidden:
-  .. _getting_started:
+
+  tools_vms/windows_tools_vm
+  tools_vms/linuxmint_tools_vm
+  appendix/glossary
+
+.. _getting_started:
 
 ------------
 Introduction
 ------------
 
-Welcome to the Kubernetes Isito Service Mesh Bootcamp! using Nutanix Karbon Kubernetes clusters.  This workbook accompanies an instructor-led session that introduces Nutanix and Kubernetes technologies and many common management tasks.
+Welcome to the Kubernetes Istio Service Mesh Bootcamp! using Nutanix Karbon Kubernetes clusters.  This workbook accompanies an instructor-led session that introduces Nutanix and Kubernetes technologies and many common management tasks.
 
 You will explore Prism Element and become familiar with its features and navigation. You will use Prism to perform basic cluster administration tasks, including storage and networking.
 
