@@ -6,14 +6,14 @@
   :name: _servicemesh_kubernetes
   :hidden:
 
-　istio/istio
-  connect/connect_to_karbon
-  application/prepare_deploy_access
-  visualisation/application_traffic_visualisation
-  control/application_traffic_control
-  explore/virtual_services_explore
-  cleanup/cleanup
-  conclusion/conclusion
+ istio/istio
+ connect/connect_to_karbon
+ application/prepare_deploy_access
+ visualisation/application_traffic_visualisation
+ control/application_traffic_control
+ explore/virtual_services_explore
+ cleanup/cleanup
+ conclusion/conclusion
 
 .. toctree::
   :maxdepth: 2
@@ -44,13 +44,12 @@ Agenda
 ++++++
 
 - Connect to Karbon deployed kubernetes cluster
-- Deploy MetalLB load balancing solution -----
-- Deploy Istio service mesh
-- Label application namespace with`istio-injection: enabled` key value pair
-- Deploy application in the `istio-injection: enabled`  labeled namespace
-- Monitor application and lear application traffic pattern
+- Deploy Istio Service Mesh
+- Enable application namespace for Istio
+- Deploy application in the Istio enabled namespace
+- Monitor application and understand application traffic pattern
 - Change application traffic in Kiali
-- Explore CRDs and Virtual Services
+- Explore Virtual Services and other CDR(s)
 
 Introductions
 +++++++++++++
