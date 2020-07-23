@@ -1,26 +1,5 @@
 .. title:: Nutanix Karbon Service Mesh Bootcamp with Istio
 
-.. toctree::
-  :maxdepth: 2
-  :caption: My Service Mesh on Kubernetes
-  :name: _servicemesh_kubernetes
-  :hidden:
-
-　istio/istio
-  connect/connect_to_karbon
-  application/prepare_deploy_access
-  visualisation/application_traffic_visualisation
-  control/application_traffic_control
-  explore/virtual_services_explore
-  cleanup/cleanup
-  conclusion/conclusion
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Appendix
-  :name: _appendix
-  :hidden:
-
 -------------------------------
 Service Mesh on Kubernetes
 -------------------------------
