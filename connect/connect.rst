@@ -1,21 +1,20 @@
 .. _connect:
 
-.. title:: Connecting to Your Karbon cluster
+.. title:: Install Istio Service Mesh
 
 -----------------------------
-Connect to Kubernetes Cluster
+Install Istio Service Mesh
 -----------------------------
 
-In this exercise we will connect to an existing kubernetes cluster deployed using Nutanix Karbon.
+In this exercise we will connect to an existing kubernetes cluster deployed using Nutanix Karbon and install Istio Service Mesh.
 
-High Level Steps
-+++++++++++++++++
+Overview
++++++++++
 
-1. Create a Linux Mint VM (If one is not deployed already please use the instructions here linux_tools_vm_ to deploy one)
+1. Create a Linux Mint VM (If one is not deployed already please use the instructions :ref:`linux_tools_vm` to deploy one
 2. Connect to Linux Mint VM and install kubectl tool
 3. Access you Karbon page and download KUBECONFIG file to Linux Mint VM
-5. Access your Karbon deployed kubernetes cluster
-
+4. Download and install Istio Service Mesh
 
 Connect to your LinuxMintVM
 ++++++++++++++++++++++++++++
@@ -24,7 +23,7 @@ Connect to your LinuxMintVM
 
    .. note::
 
-       If you are using your PC/Mac Computer you can also ssh/putty to your LinuxMint VM
+       If you are using your PC/Mac you can also ssh/putty to your LinuxMint VM
 
        .. code-block:: bash
 
@@ -45,10 +44,10 @@ Connect to your LinuxMintVM
    .. code-block:: bash
 
       alias 'k=kubectl'
-      kubectl version --client
+      k version --client
 
-Access you Karbon Page
-++++++++++++++++++++++
+Access your Kubernetes Cluster
+++++++++++++++++++++++++++++++
 
 #. Logon to your Prism Central **https://<PC VM IP>:9440**
 
@@ -64,7 +63,7 @@ Access you Karbon Page
 
 #. Click on **Copy the command to clipboard**
 
-#. Paste the clipboard in your Linux Tools VM shell
+#. Paste the contents in your Linux Tools VM shell
 
 #. Run the following command to verify your connectivity and display the nodes in the cluster
 
@@ -76,14 +75,69 @@ Access you Karbon Page
 
 #. You can list the namespaces, storage claims, physical volumes and physical volume claims using the following commands
 
-   .. code-block::
-    k get ns
-    k get sc,pv,pvc
+   .. code-block:: bash
+
+      k get ns
+      k get sc,pv,pvc
 
    .. figure:: images/klistresources.png
 
    .. note::
 
-     Nutanix Karbon has automatically provised these kubernetes resources so it is ready to use. You have the option to provision additional storage claims, physical volumes, etc by using the Kargon console or using kubectl with YAML files
+     Nutanix Karbon has automatically provisioned these kubernetes resources so it is ready to use. You have the option to provision additional storage claims, physical volumes, etc by using the Karbon console or using kubectl with YAML files
 
-Now that you have an understanding of your kubernetes cluster and available resources, go ahead and install istio using the instruction in next section.
+Now that you have an understanding of your kubernetes cluster and available resources, go ahead and install Istio.
+
+Download and Install Istio
++++++++++++++++++++++++++++
+
+#. Download Istio
+
+   .. code-block:: bash
+
+  	curl -L https://istio.io/downloadIstio | sh -
+
+#. Add Istio binaries path to the $PATH environment variable
+
+   .. code-block:: bash
+
+  	cd istio-x.x.x
+  	export PATH=$PWD/bin:$PATH
+
+#. Install Istio using ``istioctl`` tool
+
+   .. code-block:: bash
+
+  	istioctl install --set profile=demo
+
+   .. figure:: images/installistio.png
+
+   .. note::
+     There are various profiles of Istio. However, we are installing the demo profile to get functionality to run this lab. Learn more about Istio install profiles by running the following commands.
+
+     .. code-block:: bash
+
+      istioctl profile list
+      istioctl profile dump demo
+      istioctl profile dump default
+      istioctl profile diff demo default
+
+#. Confirm installation by running the following command - make sure the status are successful
+
+   .. code-block:: bash
+
+	  istioctl verify-install
+
+   .. figure:: images/verifyinstallistio.png
+
+#. List, identify and explore the ``istioctl-system`` namespace pods.
+
+#. Make sure they are all in a `running` state
+
+   .. code-block:: bash
+
+    kubectl get pods -n istio-system
+
+   .. figure:: images/istioresources.png
+
+This completes your Istio control plane installation.

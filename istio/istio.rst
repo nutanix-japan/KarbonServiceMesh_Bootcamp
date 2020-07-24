@@ -1,7 +1,7 @@
 .. _istio:
 
 -------------------------------
-Service Mesh on Kubernetes
+Istio Service Mesh
 -------------------------------
 
 Service mesh has become quite popular recently in monitoring and directing application traffic management using software. This applies to microservices based workloads.
