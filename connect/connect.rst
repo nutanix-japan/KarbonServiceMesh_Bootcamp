@@ -37,7 +37,7 @@ Connect to your LinuxMintVM  (using console or ssh/putty)
       alias 'k=kubectl'
       kubectl version --client
 
-#. Logon to your PC `https://<PC VM IP>:9440`
+#. Logon to your Prism Central **https://<PC VM IP>:9440**
 
 #. Go to **Menu > Services > Karbon**
 
