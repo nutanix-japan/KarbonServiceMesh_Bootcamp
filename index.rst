@@ -2,7 +2,7 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: My Service Mesh on Kubernetes
+  :caption: Service Mesh on Kubernetes
   :name: _servicemesh_kubernetes
   :hidden:
 
@@ -21,8 +21,7 @@
   :name: _appendix
   :hidden:
 
-  tools_vms/windows_tools_vm
-  tools_vms/linuxmint_tools_vm
+  appendix/linux_tools_vm
   appendix/glossary
 
 .. _getting_started:
