@@ -103,3 +103,5 @@ We will be now access the application we deployed using port-forwarding feature 
    You should see the application's webpage as shown below
 
    .. figure:: images/bookinfoview.png
+
+   Now that we have successfully deployed our application, we can move on to traffic shaping exercise section. 
