@@ -80,7 +80,7 @@ We will be now access the application we deployed using port-forwarding feature 
 
    .. figure:: images/clusterip.png
 
-   You will notice that the type is `ClusterIP <https://kubernetes.io/docs/concepts/services-networking/service/>`_ which means the service is only available inside the kubernetes cluster.
+   You will notice that the type is `ClusterIP <https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types/>`_ which means the service is only available inside the kubernetes cluster.
 
 #. To be able to access this ``productpage`` service outside the cluster we will create a port-forwarding service to your CentOS VM
 
@@ -104,4 +104,4 @@ We will be now access the application we deployed using port-forwarding feature 
 
    .. figure:: images/bookinfoview.png
 
-   Now that we have successfully deployed our application, we can move on to traffic shaping exercise section. 
+   Now that we have successfully deployed our application, we can move on to traffic shaping exercise section.
