@@ -46,11 +46,11 @@ Source and further Istio Architecture reference can be `here <https://istio.io/l
 Istio and CRD(s)
 +++++++++++++++++
 
-Istio is able to implement Service Mesh functionality by extending basic kubernetes functionality (services, etc) with Custom Resource Definitions (CRD). Some CRD are here (not limited to):
+Istio is able to implement Service Mesh functionality by extending basic kubernetes functionality (services, etc) with Custom Resource Definitions (CRD). Some CRD(s) are listed here (not limited to):
 
 - `Virtual Service <https://istio.io/latest/docs/concepts/traffic-management/#virtual-services>`_
-- `Destination Rules <https://istio.io/latest/docs/concepts/traffic-management/#virtual-services>`_
-- `Service Entries <https://istio.io/latest/docs/concepts/traffic-management/#gateways>`_
+- `Destination Rules <https://istio.io/latest/docs/concepts/traffic-management/#destination-rules>`_
+- `Service Entries <https://istio.io/latest/docs/concepts/traffic-management/#service-entries>`_
 - `Gateways <https://istio.io/latest/docs/concepts/traffic-management/#gateways>`_
 
 .. note::
@@ -60,7 +60,7 @@ Istio is able to implement Service Mesh functionality by extending basic kuberne
 Istio and Kiali
 +++++++++++++++++++++++++++++++++
 
-Kiali is used as a visualisation layer for deployed applications.  Kiali also supports configuring traffic management policies amongst others. Kiali helps administrators visualise the following(not limited to):
+Kiali is used to visualise deployed applications in the service mesh.  Kiali also supports configuring traffic management policies amongst others. Kiali helps administrators visualise the following(not limited to):
 
 - Applications and related microservices
 - Performance patterns
