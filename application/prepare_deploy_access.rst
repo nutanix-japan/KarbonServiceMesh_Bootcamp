@@ -1,6 +1,6 @@
 .. _prepare_deploy_access:
 
-.. title:: Install Bookinfo Application
+.. title:: Preparing and Deploying Application
 
 ------------------------------------
 Preparing and Deploying Application

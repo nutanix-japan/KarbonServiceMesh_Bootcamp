@@ -71,4 +71,4 @@ Kiali aslo enables users to manage traffic between various components of the app
 
    .. note::
 
-    Further reading for virtual services and CRD are `here <https://istio.io/latest/docs/reference/config/networking/virtual-service/>`_
+    Further reading for virtual services and other CRD(s) are `here <https://istio.io/latest/docs/reference/config/networking/virtual-service/>`_

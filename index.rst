@@ -10,7 +10,7 @@
   connect/connect
   application/prepare_deploy_access
   visualisation/application_traffic_visualisation
-  control/application_traffic_control
+  control/control_application_traffic
   explore/virtual_services_explore
   cleanup/cleanup
   conclusion/conclusion
@@ -39,7 +39,7 @@ At the end of the bootcamp, attendees should understand the Core concepts and te
 .. note::
 
 	Estimated time to complete this lab is 60 minutes
-  
+
 What's New
 ++++++++++
 

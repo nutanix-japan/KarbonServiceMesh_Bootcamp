@@ -1,5 +1,7 @@
 .. _istio:
 
+.. title:: Istio Introduction
+
 -------------------------------
 Istio Service Mesh
 -------------------------------
