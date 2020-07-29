@@ -1,8 +1,8 @@
 .. _linux_tools_vm:
 
--------------------
+---------------------
 Linux Mint Tools VM
---------------------
+---------------------
 
 Overview
 +++++++++
@@ -31,7 +31,7 @@ Fill out the following fields:
 - Select **+ Add New Disk**
     - **Type** - DISK
     - **Operation** - Clone from Image Service
-    - **Image** - LinuxMint.qcow2
+    - **Image** - LinuxMint
     - Select **Add**
 
 - Select **Add New NIC**
