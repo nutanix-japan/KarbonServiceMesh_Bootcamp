@@ -2,9 +2,9 @@
 
 .. title:: Visualise Bookinfo Application
 
---------------------
-Application Traffic
---------------------
+----------------------------------------
+Generating Application Traffic
+----------------------------------------
 
 Generate Application Traffic
 +++++++++++++++++++++++++++++

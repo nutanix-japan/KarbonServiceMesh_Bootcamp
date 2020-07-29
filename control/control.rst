@@ -1,4 +1,4 @@
-.. _control_application_traffic:
+.. _control:
 
 .. title:: Controlling Application Traffic using Virtual Service CDR
 
@@ -9,6 +9,9 @@ Controlling Application Traffic
 In this section we will learn how to control application traffic to different versions of the Reviews application.
 
 Scenario: Let’s say one day your management wants all traffic to go to v3of the Reviews app as it is the latest and testing has proven that it has worked properly. How would you do this?
+
+Control Application Traffic
+++++++++++++++++++++++++++++
 
 We will attempt to redirect 100% of the incoming traffic to v3 pods here:
 

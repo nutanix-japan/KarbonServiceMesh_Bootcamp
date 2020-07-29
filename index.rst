@@ -10,7 +10,7 @@
   connect/connect
   application/prepare_deploy_access
   visualisation/application_traffic_visualisation
-  control/control_application_traffic
+  control/control
   explore/virtual_services_explore
   cleanup/cleanup
   conclusion/conclusion
