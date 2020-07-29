@@ -43,6 +43,19 @@ This side-car container serves as an entry and exit point of traffic to the appl
 
 Source and further Istio Architecture reference can be `here <https://istio.io/latest/docs/concepts/what-is-istio/>`_
 
+Istio and CRD(s)
++++++++++++++++++
+
+Istio is able to implement Service Mesh functionality by extending basic kubernetes functionality (services, etc) with Custom Resource Definitions (CRD). Some CRD are here (not limited to):
+
+- `Virtual Service <https://istio.io/latest/docs/concepts/traffic-management/#virtual-services>`_
+- `Destination Rules <https://istio.io/latest/docs/concepts/traffic-management/#virtual-services>`_
+- `Service Entries <https://istio.io/latest/docs/concepts/traffic-management/#gateways>`_
+- `Gateways <https://istio.io/latest/docs/concepts/traffic-management/#gateways>`_
+
+.. note::
+
+	In this lab we will be only working with Virtual Service CRD. Future version might bring additional labs to understand and try other CRD(s)
 
 Istio and Kiali
 +++++++++++++++++++++++++++++++++

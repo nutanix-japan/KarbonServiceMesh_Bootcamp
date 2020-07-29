@@ -36,6 +36,10 @@ You will explore Prism Element and become familiar with its features and navigat
 
 At the end of the bootcamp, attendees should understand the Core concepts and technologies that make up the Nutanix Enterprise Cloud stack and should be well prepared for a hosted or onsite proof-of-concept (POC) engagement.
 
+.. note::
+
+	Estimated time to complete this lab is 60 minutes
+  
 What's New
 ++++++++++
 
