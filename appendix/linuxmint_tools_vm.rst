@@ -1,4 +1,4 @@
-.. _linux_tools_vm:
+.. _linuxmint_tools_vm:
 
 ---------------------
 Linux Mint Tools VM

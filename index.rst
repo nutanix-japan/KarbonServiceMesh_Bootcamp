@@ -21,14 +21,15 @@
   :name: _appendix
   :hidden:
 
-  appendix/linux_tools_vm
+  appendix/linuxmint_tools_vm
+  appendix/create_kube
   appendix/glossary
 
 .. _getting_started:
 
 ------------
 Introduction
-------------
+-------------
 
 Welcome to the Kubernetes Istio Service Mesh Bootcamp! using Nutanix Karbon Kubernetes clusters.  This workbook accompanies an instructor-led session that introduces Nutanix and Kubernetes technologies and many common management tasks.
 
@@ -41,7 +42,7 @@ At the end of the bootcamp, attendees should understand the Core concepts and te
 	Estimated time to complete this lab is 60 minutes
 
 What's New
-++++++++++
++++++++++++
 
 - Workshop updated for the following software versions:
     - AOS & PC 5.11.2.x
@@ -49,7 +50,7 @@ What's New
 - Optional Lab Updates:
 
 Agenda
-++++++
++++++++
 
 - Connect to Karbon deployed kubernetes cluster
 - Deploy Istio Service Mesh
@@ -60,19 +61,19 @@ Agenda
 - Explore Virtual Services and other CDR(s)
 
 Introductions
-+++++++++++++
+++++++++++++++
 
 - Name
 - Familiarity with Nutanix
 
 Initial Setup
-+++++++++++++
+++++++++++++++
 
 - Take note of the *Passwords* being used.
 - Log into your virtual desktops (connection info below)
 
 Environment Details
-+++++++++++++++++++
+++++++++++++++++++++
 
 Nutanix Workshops are intended to be run in the Nutanix Hosted POC environment. Your cluster will be provisioned with all necessary images, networks, and VMs required to complete the exercises.
 
