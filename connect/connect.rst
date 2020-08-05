@@ -11,7 +11,7 @@ In this exercise we will connect to an existing kubernetes cluster deployed usin
 Overview
 +++++++++
 
-1. Create a Linux Mint VM (If one is not deployed already please use the instructions :ref:`linuxmint_tools_vm` to deploy one
+1. Create a Linux Mint VM (If one is not deployed already please use the instructions here :ref:`linuxmint_tools_vm` to deploy one
 2. Connect to Linux Mint VM and install kubectl tool
 3. Access you Karbon page and download KUBECONFIG file to Linux Mint VM
 4. Download and install Istio Service Mesh
@@ -50,6 +50,9 @@ Access your Kubernetes Cluster
 ++++++++++++++++++++++++++++++
 
 #. Logon to your Prism Central **https://<PC VM IP>:9440**
+
+   .. note::
+     if you haven't got a Karbon deployed kubernetes cluster in your HPOC, refer here :ref:`karbon_create_cluster`
 
 #. Go to **Menu > Services > Karbon**
 
