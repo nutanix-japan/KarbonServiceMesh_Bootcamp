@@ -42,7 +42,7 @@ Deploying your Application
 
    .. code-block:: bash
 
-	  k apply -f /home/<yourdir>/istio-x.x.x/samples/bookinfo/platform/kube/bookinfo.yaml
+	  k apply -f /home/nutanix/istio-x.x.x/samples/bookinfo/platform/kube/bookinfo.yaml
 
    .. figure:: images/installapp.png
 
