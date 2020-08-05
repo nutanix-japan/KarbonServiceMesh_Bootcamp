@@ -13,7 +13,6 @@
   control/control
   explore/virtual_services_explore
   cleanup/cleanup
-  conclusion/conclusion
 
 .. toctree::
   :maxdepth: 2

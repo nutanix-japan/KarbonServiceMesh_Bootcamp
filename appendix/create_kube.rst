@@ -137,6 +137,6 @@ ___________
 Takeaways
 +++++++++
 
-- Here is where we summarize any key takeaways from the module
+- Here is where we summarise any key takeaways from the module
 - Such as how a Nutanix feature used in the lab delivers value
 - Or highlighting a differentiator
