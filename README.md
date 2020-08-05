@@ -1,6 +1,10 @@
-Agenda
-+++++++
+Kubernetes Service Mesh Workshop
+-----------------------
 
+Workshop resources to get the understanding of Kubernetes Service Mesh implemented using Istio
+
+High Level Agenda
+-----------------
 - Connect to Karbon deployed kubernetes cluster
 - Deploy Istio Service Mesh
 - Enable application namespace for Istio
