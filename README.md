@@ -1,9 +1,10 @@
-Use 'pip' to install the following modules for the build:
+Agenda
++++++++
 
-sphinxcontrib-fulltoc == 1.2.0
-sphinx-bootstrap-theme == 0.6.0
-sphinx_fontawesome
-
-Uncomment example\\index in .\\index.rst to view example workshop
-
-Michael: testing
+- Connect to Karbon deployed kubernetes cluster
+- Deploy Istio Service Mesh
+- Enable application namespace for Istio
+- Deploy application in the Istio enabled namespace
+- Monitor application and understand application traffic pattern
+- Change application traffic in Kiali
+- Explore Virtual Services and other CDR(s)
