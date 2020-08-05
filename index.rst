@@ -57,13 +57,7 @@ Agenda
 - Deploy application in the Istio enabled namespace
 - Monitor application and understand application traffic pattern
 - Change application traffic in Kiali
-- Explore Virtual Services and other CDR(s)
-
-Introductions
-++++++++++++++
-
-- Name
-- Familiarity with Nutanix and Kubernetes
+- Explore Virtual Services and other CRD(s)
 
 Initial Setup
 ++++++++++++++

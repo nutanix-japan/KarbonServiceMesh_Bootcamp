@@ -11,4 +11,4 @@ High Level Agenda
 - Deploy application in the Istio enabled namespace
 - Monitor application and understand application traffic pattern
 - Change application traffic in Kiali
-- Explore Virtual Services and other CDR(s)
+- Explore Virtual Services and other CRD(s)
