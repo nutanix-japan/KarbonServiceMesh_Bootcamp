@@ -116,7 +116,7 @@ Download and Install Istio
    .. figure:: images/installistio.png
 
    .. note::
-     There are various profiles of Istio. However, we are installing the demo profile to get functionality to run this lab. Learn more about Istio install profiles by running the following commands.
+     There are various profiles of Istio. However, we are installing the demo profile to get functionality to run this lab. Learn more about Istio install profiles by running the following commands:
 
      .. code-block:: bash
 
