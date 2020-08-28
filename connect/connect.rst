@@ -29,7 +29,7 @@ Connect to your LinuxMintVM
 
         ssh -l nutanix <LinuxMint VM IP address>
 
-#. Paste the command in clipboard to the shell in your LinuxMint VM
+#. Paste the command in clipboard to the shell in your LinuxMint VM to install kubectl
 
    .. code-block:: bash
 

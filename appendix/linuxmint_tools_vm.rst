@@ -50,8 +50,18 @@ Login to the VM via ssh or Console session, using the following credentials:
 - **Username** - nutanix
 - **password** - (default password)
 
-Update existing packages:
+#. Update existing packages:
 
-.. code-block:: bash
+   .. code-block:: bash
 
-  sudo apt-get update
+    sudo apt-get update
+
+#. Paste the command in clipboard to the shell in your LinuxMint VM to install kubectl
+
+   .. code-block:: bash
+
+    sudo apt-get update && sudo apt-get install -y apt-transport-https gnupg2
+    curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+    echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+    sudo apt-get update
+    sudo apt-get install -y kubectl
